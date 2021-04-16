@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+/*header*/
+#header{
+    
+}
+.gnb{
+    position: absolute;
+    top:40px;
+    right: 40px;
+    z-index: 1;
+}
+.gnb img{
+}
+
+
+/*footer*/
+#footer{
+    background: url(../images/footer.png);
+    background-size: cover;
+    height: 263px;
+    text-align: center;
+    margin-top: 80px;
+}
+#footer h2{
+    padding: 55px;
+}
+#footer img{
+   
+}
+#footer p{
+    font-size: 20px;
+    color: #fff;
+    font-family: "NotoSans";
+    
+}
+
+
+
+

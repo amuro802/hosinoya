@@ -1,0 +1,263 @@
+@charset "utf-8";
+/*메인슬라이더*/
+ 
+.mainSlider{
+    position: relative;
+    text-align: center;
+}
+.mainSlider img{
+    width: 100%;
+    z-index: 3;
+    display: block;
+}
+.mainSlider p{
+    position:absolute; 
+    left:50%; 
+    top: 50%;
+    transform:translateX(-50%);
+    font-family: "MapoFlowerIsland";
+    z-index: 4;
+    color: #fff;
+    font-size: 20px;
+}
+.mainLogo{
+    
+}
+.mainLogo h1{
+    width: 120px;
+    height: 100%;
+    
+}
+.mainLogo h1 a{}
+.mainLogo h1 a img{
+    width: 64px;
+    position:absolute; 
+    left:50%; 
+    top: 40%;
+    transform:translateX(-50%);
+    z-index: 4;
+
+}
+
+/*메인컨텐츠01*/
+.mainCon01{
+    position: relative;
+     background: url(../images/sssssssssssssss.png)no-repeat;
+}
+.con01Txt{
+    padding-top: 150px;
+    z-index: 20;
+}
+.box{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    
+    vertical-align: middle;
+    z-index: 10;
+    text-indent: -9999px;
+    margin-left: 80px;
+}
+.con01Txt h3{
+    display: inline-block;
+    font-size: 30px;
+    z-index: 1;
+    
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: "MapoFlowerIsland";
+}
+.con01Txt p{
+    padding-left: 80px;
+    font-size: 25px;
+    z-index: 1;
+    text-align: left;
+    line-height: 40px;
+    font-family: "MapoFlowerIsland";
+}
+    
+
+
+.rBtn{
+    width: 50px;
+    
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    position:absolute;
+    right: 0;
+    top:40%;
+    
+    
+}
+.rBtn a{}
+.rBtn p{
+    font-size: 23px;
+    font-weight: "NotoSans";
+    font-weight: bold;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    letter-spacing: 3px;
+}
+/*메인컨텐츠02*/
+.mainCon02{
+    margin-top: 150px;
+}
+.con02Img{
+    text-align: center;
+}
+.con02Img li{
+    
+}
+.con02Img img{}
+
+
+.sliderBtn{
+  
+}
+.sliderBtn li{}
+.sliderBtn prev{}
+.sliderBtn centerBtn{}
+.sliderBtn next{}
+
+
+/*maincon03*/
+.mainCon03{
+    text-align: center;
+    margin-top: 50px;
+}
+.con03Img{position: relative;}
+.con03Img img{
+    
+}
+.con03Txt{
+    text-align: left;
+    position: absolute;
+    left:50%; 
+    top: 2500px;
+    transform:translateX(-50%);
+    line-height: 45px;
+}
+
+.con03Txt p{
+    font-size: 19px;
+    color: #FFF;
+    font-family: "MapoFlowerIsland";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  border: none;
+}
+
+.slide {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.panel {
+  width: 400%;
+}
+
+.panel:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.panel>li {
+  width: 25%;
+  
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+
+
+.dot:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dot {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
+
+.dot>li {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.dot>li.on {
+  background-color: #342f2f;
+}
+/*mainCon04*/
+.mainCon04{
+    margin-top: 50px;
+    
+}
+.con04Img{
+    text-align: center;
+}
+.con04Img li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.con04Img li:nth-child(2n){
+    margin-right: 0;
+}
+.con04Img li a{}
+.con04Img li img{
+    
+
+}
+.con04Img li p{
+    background: rgba(40,30,20,0.5);
+    position: absolute;
+    bottom: 4px;
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    
+    letter-spacing: 10px;
+    padding: 15px 0;
+    width: 100%;
+    font-family: "NotoSans";
+    
+}
